@@ -7,8 +7,8 @@ Por último se puede elegir a tu 11 ideal del torneo
 ## Integrantes del equipo
 
 Alberto Díaz-Guerra Fernández Nº: 53927
-Ángel Luis Olmedo Velasco Nº: 
+Ángel Luis Olmedo Velasco Nº: 54130
 
 ## Objetivos del trabajo
 
-Lista de los objetivos que se persiguen con el trabajo propuesto.
+Los objetivos son familiarizarnos con el lenguaje en C y aprender los conocimientos
