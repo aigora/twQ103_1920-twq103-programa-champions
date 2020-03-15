@@ -1,10 +1,13 @@
 # Programa Champions League
 
-Descripción breve del proyecto a realizar (2-3 frases).
+Consiste en un programa en el que puedes buscar a tu jugador favorito elgiendo equipo, posicion... 
+Tambien puedes crear tu propio sorteo y hacer una simulacion de como avanza el torneo según te apetezca.
+Por último se puede elegir a tu 11 ideal del torneo
 
 ## Integrantes del equipo
 
-Nombres, apellidos, y usuario GitHub de los integrantes del equipo.
+Alberto Díaz-Guerra Fernández Nº: 53927
+Ángel Luis Olmedo Velasco Nº: 
 
 ## Objetivos del trabajo
 
