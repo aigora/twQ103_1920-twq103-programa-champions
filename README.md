@@ -27,3 +27,5 @@ Opcion 3: Elige el mejor 11 de la Champions
 Se le mostraran al usuario todos los porteros a partir de cuartos de final (8 equipos que ya están elegidos), y tendra que elegir a uno.
 Despues tiene que elegir a 3 centrocampistas y a 3 delanteros. Finalmente se mostrará el 11 por pantalla o en un fichero nuevo.
 
+Opcion 4: Salir del programa
+Se finaliza el programa y sale
