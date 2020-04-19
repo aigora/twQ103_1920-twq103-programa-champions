@@ -1,0 +1,44 @@
+Luniov;Portero;6;0;0;Zenit
+Ivanović;Defensa;6;0;0;Zenit
+Rakitski;Defensa;6;1;1;Zenit
+Smólnikov;Defensa;6;0;0;Zenit
+Mammana;Defensa;4;1;1;Zenit
+Malcom;Centrocampista;5;1;1;Zenit
+Barrios;Centrocampista;5;0;0;Zenit
+Shátov;Centrocampista;6;2;1;Zenit
+Driussi;Delantero;5;0;0;Zenit
+Erokhin;Delantero;5;1;1;Zenit
+Dziuba;Delantero;6;1;0;Zenit
+Vlachodimos;Portero;6;0;0;Benfica
+Grimaldo;Defensa;6;0;0;Benfica
+Dias;Defensa;6;1;1;Benfica
+Ferro;Defensa;6;0;0;Benfica
+Tavares;Defensa;4;1;1;Benfica
+Chiquinho;Centrocampista;5;1;1;Benfica
+Taarabt;Centrocampista;6;0;0;Benfica
+Silva;Centrocampista;6;2;2;Benfica
+Seferović;Delantero;6;3;3;Benfica
+Jota;Delantero;5;2;2;Benfica
+Pizzi;Delantero;6;1;0;Benfica
+A. Lopes;Portero;8;0;0;Olympique de Lyon
+Marcal;Defensa;8;0;0;Olympique de Lyon
+Denayer;Defensa;8;1;1;Olympique de Lyon
+Marcelo;Defensa;8;0;0;Olympique de Lyon
+Dubois;Defensa;7;1;1;Olympique de Lyon
+Tousart;Centrocampista;8;3;1;Olympique de Lyon
+Aouar;Centrocampista;8;0;0;Olympique de Lyon
+T. Mendes;Centrocampista;8;2;2;Olympique de Lyon
+Depay;Delantero;8;3;3;Olympique de Lyon
+Ekambi;Delantero;8;0;2;Olympique de Lyon
+Moussa Dembele;Delantero;8;2;1;Olympique de Lyon
+Gulacsi;Portero;8;0;0;Leipzig
+Upamecano;Defensa;7;0;0;Leipzig
+Klostermann;Defensa;8;1;2;Leipzig
+Halstenberg;Defensa;8;0;0;Leipzig
+Angelino;Defensa;8;1;0;Leipzig
+Sabitzer;Centrocampista;8;3;1;Leipzig
+Laimer;Centrocampista;8;0;0;Leipzig
+Nkunku;Centrocampista;8;2;4;Leipzig
+Forsberg;Delantero;8;3;2;Leipzig
+T. Werner;Delantero;8;4;3;Leipzig
+Schick;Delantero;6;1;1;Leipzig

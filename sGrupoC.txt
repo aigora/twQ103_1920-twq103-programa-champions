@@ -1,0 +1,44 @@
+Ederson;Portero;10;0;0;Manchester City
+Otamendi;Defensa;10;1;1;Manchester City
+Mendy;Defensa;10;1;2;Manchester City
+Walker;Defensa;10;2;0;Manchester City
+Laporte;Defensa;10;0;0;Manchester City
+De Bruyne;Centrocampista;10;6;1;Manchester City
+Gündogan;Centrocampista;10;4;0;Manchester City
+Rodri;Centrocampista;10;1;1;Manchester City
+B. Silva;Delantero;10;4;1;Manchester City
+G. Jesus;Delantero;10;5;1;Manchester City
+Mahrez;Delantero;10;2;0;Manchester City
+Pyatov;Portero;6;0;0;Shakhtar Donetsk
+Kryvtsov;Defensa;6;0;0;Shakhtar Donetsk
+Matviyenko;Defensa;6;1;1;Shakhtar Donetsk
+Ismaily;Defensa;6;0;2;Shakhtar Donetsk
+Dodo;Defensa;4;1;1;Shakhtar Donetsk
+Stepanenko;Centrocampista;5;1;1;Shakhtar Donetsk
+Marcos Antônio;Centrocampista;5;1;1;Shakhtar Donetsk
+Alan Patrick;Centrocampista;6;1;1;Shakhtar Donetsk
+Taison;Delantero;5;2;0;Shakhtar Donetsk
+Marlos;Delantero;5;0;2;Shakhtar Donetsk
+Júnior Moraes;Delantero;6;1;0;Shakhtar Donetsk
+Livakovic;Portero;6;0;;Dínamo de Zagreb
+Rrahmani;Defensa;6;0;;Dínamo de Zagreb
+Théophile-Catherine;Defensa;6;1;;Dínamo de Zagreb
+Leovac;Defensa;6;0;;Dínamo de Zagreb
+Gvardiol;Defensa;4;1;;Dínamo de Zagreb
+Ademi;Centrocampista;5;1;;Dínamo de Zagreb
+Kadzior;Centrocampista;5;0;;Dínamo de Zagreb
+Ivanusec;Centrocampista;6;2;;Dínamo de Zagreb
+Majer;Delantero;5;0;;Dínamo de Zagreb
+Orsic;Delantero;5;1;;Dínamo de Zagreb
+Kulenovic;Delantero;6;1;;Dínamo de Zagreb
+Gollini;Portero;8;0;0;Atalanta
+Palomino;Defensa;8;0;0;Atalanta
+Caldara;Defensa;8;1;1;Atalanta
+Toloim;Defensa;8;0;0;Atalanta
+Hateboer;Defensa;8;1;1;Atalanta
+Pasalic;Centrocampista;8;3;1;Atalanta
+de Roon;Centrocampista;7;1;0;Atalanta
+Freuler;Centrocampista;8;2;2;Atalanta
+Ilicic;Delantero;7;3;3;Atalanta
+Muriel;Delantero;8;4;2;Atalanta
+D. Zapata;Delantero;8;4;0;Atalanta

@@ -1,0 +1,44 @@
+ter Stegen;Portero;12;0;0;Barcelona
+Semedo;Defensa;12;0;1;Barcelona
+Pique;Defensa;12;0;2;Barcelona
+Lenglet;Defensa;12;0;4;Barcelona
+Albam;Defensa;11;0;0;Barcelona
+De Jong;Centrocampista;12;3;1;Barcelona
+Busquets;Centrocampista;12;1;1;Barcelona
+Arthur;Centrocampista;11;0;1;Barcelona
+Messi;Delantero;12;12;6;Barcelona
+Suárez;Delantero;12;7;1;Barcelona
+Griezmann;Delantero;12;4;3;Barcelona
+Bürki;Portero;8;0;0;Dortmund
+Hakimi;Defensa;7;1;0;Dortmund
+Hummels;Defensa;8;0;2;Dortmund
+Guerreiro;Defensa;8;0;0;Dortmund
+Akanji;Defensa;8;0;0;Dortmund
+Witsel;Centrocampista;8;0;4;Dortmund
+M. Götze;Centrocampista;8;4;0;Dortmund
+Can;Centrocampista;8;1;4;Dortmund
+Haaland;Delantero;8;7;2;Dortmund
+Sancho;Delantero;8;5;3;Dortmund
+T. Hazard;Delantero;6;6;5;Dortmund
+Handanovič;Portero;6;0;0;Inter de Milán
+Ranocchia;Defensa;6;0;0;Inter de Milán
+D'Ambrosio;Defensa;6;1;1;Inter de Milán
+Škriniar;Defensa;6;0;0;Inter de Milán
+Godín;Defensa;4;1;1;Inter de Milán
+Vecino;Centrocampista;5;3;1;Inter de Milán
+Eriksen;Centrocampista;6;0;0;Inter de Milán
+Brozović;Centrocampista;6;2;2;Inter de Milán
+Alexis;Delantero;6;5;3;Inter de Milán
+Lukaku;Delantero;5;4;2;Inter de Milán
+Lautaro Martínez;Delantero;6;5;0;Inter de Milán
+Kolář;Portero;6;0;0;Slavia de Praga
+Coufal;Defensa;6;0;0;Slavia de Praga
+Kúdela;Defensa;6;1;1;Slavia de Praga
+Bořil;Defensa;6;0;2;Slavia de Praga
+Hovorka;Defensa;4;1;1;Slavia de Praga
+Stanciu;Centrocampista;5;1;1;Slavia de Praga
+Provod;Centrocampista;5;1;1;Slavia de Praga
+Ševčík;Centrocampista;6;1;1;Slavia de Praga
+Olayinka;Delantero;5;2;0;Slavia de Praga
+Tecl;Delantero;5;0;2;Slavia de Praga
+Van Buren;Delantero;6;1;0;Slavia de Praga
