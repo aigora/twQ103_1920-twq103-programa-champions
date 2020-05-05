@@ -1,0 +1,44 @@
+Keylor Navas;Portero;8;0;0;Paris Saint Germain
+Thiago Silva;Defensa;7;1;0;Paris Saint Germain
+Marquinhos;Defensa;8;0;2;Paris Saint Germain
+Meunier;Defensa;8;0;0;Paris Saint Germain
+Bernat;Defensa;8;0;0;Paris Saint Germain
+Verratti;Centrocampista;8;0;4;Paris Saint Germain
+Di Maria;Centrocampista;8;4;0;Paris Saint Germain
+Gueye;Centrocampista;8;1;4;Paris Saint Germain
+Mbappe;Delantero;8;4;2;Paris Saint Germain
+Neymar;Delantero;8;5;3;Paris Saint Germain
+Icardi;Delantero;6;6;5;Paris Saint Germain
+Courtois;Portero;8;0;0;Real Madrid
+Varane;Defensa;8;1;1;Real Madrid
+S.Ramos;Defensa;7;3;2;Real Madrid
+Carvajal;Defensa;8;0;4;Real Madrid
+F.Mendy;Defensa;8;0;0;Real Madrid
+Kroos;Centrocampista;8;0;1;Real Madrid
+Casemiro;Centrocampista;8;2;3;Real Madrid
+F.Valverde;Centrocampista;8;1;1;Real Madrid
+Benzema;Delantero;8;4;2;Real Madrid
+Vinicius Jr;Delantero;5;0;4;Real Madrid
+Hazard;Delantero;8;4;3;Real Madrid
+Mignolet;Portero;6;0;0;Brujas
+Deli;Defensa;6;0;0;Brujas
+Ricca;Defensa;6;1;1;Brujas
+Mechele;Defensa;6;0;0;Brujas
+Mata;Defensa;4;1;1;Brujas
+Vanaken ;Centrocampista;5;1;1;Brujas
+Rits;Centrocampista;5;0;0;Brujas 
+Baiye;Centrocampista;6;2;2;Brujas
+Okereke;Delantero;3;3;0;Brujas
+Tau;Delantero;5;2;2;Brujas
+de Cuyper;Delantero;6;1;0;Brujas
+Muslera;Portero;6;0;0;Galatasaray
+Mariano Ferreira;Defensa;6;0;0;Galatasaray
+Marcelo Saracchi;Defensa;6;1;1;Galatasaray
+Marcao;Defensa;6;0;2;Galatasaray
+Nagatomo;Defensa;4;1;1;Galatasaray
+Seri;Centrocampista;5;1;1;Galatasaray
+Belhanda;Centrocampista;5;1;1;Galatasaray
+Bayram;Centrocampista;6;1;1;Galatasaray
+Feghouli;Delantero;6;2;0;Galatasaray
+Falcao;Delantero;5;1;2;Galatasaray
+Andone;Delantero;4;2;0;Galatasaray

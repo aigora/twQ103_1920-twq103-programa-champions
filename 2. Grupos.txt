@@ -1,0 +1,8 @@
+Grupo A: Paris Saint-Germain, Real Madrid, Brujas y Galatasaray.
+Grupo B: Bayern de Munich, Tottenham, Olympiacos y Estrella Roja.
+Grupo C: Manchester City, Shakhtar Donetsk, Dinamo de Zagreb y Atalanta.
+Grupo D: Juventus, Atletico de Madrid, Bayer Leverkusen y Lokomotiv de Moscu.
+Grupo E: Liverpool, Napoles, Salzburgo y Genk.
+Grupo F: Barcelona, Borussia Dortmund, Inter de Milan y Slavia de Praga.
+Grupo G: Zenit, Benfica, Lyon y RB Leipzig.
+Grupo H: Chelsea, Ajax, Valencia y LOSC Lille.

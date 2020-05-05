@@ -1,0 +1,44 @@
+Arrizabalaga;Portero;10;0;0;Chelsea
+Azpilicueta;Defensa;10;0;0;Chelsea
+Zouma;Defensa;10;1;1;Chelsea
+Tomori ;Defensa;10;0;0;Chelsea
+M. Alonso;Defensa;10;1;1;Chelsea
+Kovacic;Centrocampista;10;3;1;Chelsea
+Mount;Centrocampista;7;0;0;Chelsea
+Kante;Centrocampista;10;2;2;Chelsea
+Willian;Delantero;10;3;3;Chelsea
+Abraham;Delantero;9;4;2;Chelsea
+Pulisic;Delantero;8;1;1;Chelsea
+Onana;Portero;12;0;0;Ajax de Amsterdam
+Schuurs;Defensa;12;0;1;Ajax de Amsterdam
+Blind;Defensa;12;0;2;Ajax de Amsterdam
+Martinez;Defensa;12;0;4;Ajax de Amsterdam
+Dest;Defensa;11;0;0;Ajax de Amsterdam
+Van de Beek;Centrocampista;12;3;1;Ajax de Amsterdam
+Eiting;Centrocampista;12;1;1;Ajax de Amsterdam
+Gravenberch;Centrocampista;11;0;1;Ajax de Amsterdam
+David Neres;Delantero;12;5;4;Ajax de Amsterdam
+Tadic;Delantero;12;7;1;Ajax de Amsterdam
+Ziyech;Delantero;12;4;3;Ajax de Amsterdam
+Cillessen;Portero;10;0;0;Valencia
+Gaya;Defensa;10;1;1;Valencia
+G. Paulista;Defensa;10;1;1;Valencia
+M. Diakhaby;Defensa;10;0;0;Valencia
+Florenzi;Defensa;10;0;1;Valencia
+Parejo;Centrocampista;10;3;3;Valencia
+Kondogbia;Centrocampista;9;1;1;Valencia
+Ferran;Centrocampista;10;2;2;Valencia
+Soler;Delantero;8;1;0;Valencia
+Maxi Gomez;Delantero;10;1;0;Valencia
+Rodrigo;Delantero;10;1;0;Valencia
+Maignan;Portero;6;0;0;Lille
+Magalhaes;Defensa;6;0;0;Lille
+Fonte ;Defensa;6;1;1;Lille
+Celik;Defensa;6;0;0;Lille
+Bradaric;Defensa;4;1;1;Lille
+Ikone;Centrocampista;6;3;1;Lille
+Renato Sanches;Centrocampista;6;0;0;Lille
+Andre;Centrocampista;6;2;2;Lille
+Osimhen;Delantero;6;5;3;Lille
+Remy;Delantero;5;4;2;Lille
+Timothy Weah;Delantero;6;5;0;Lille

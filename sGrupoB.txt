@@ -1,0 +1,44 @@
+Neuer;Portero;8;0;0;Bayern de Munich
+Kimmich;Defensa;8;1;1;Bayern de Munich
+Pavard;Defensa;8;3;2;Bayern de Munich
+Alaba;Defensa;8;0;0;Bayern de Munich
+Boateng;Defensa;8;0;0;Bayern de Munich
+Gnabry;Centrocampista;8;0;1;Bayern de Munich
+Thiago ;Centrocampista;8;4;0;Bayern de Munich
+Coutinho;Centrocampista;8;1;4;Bayern de Munich
+Lewandowski;Delantero;8;8;3;Bayern de Munich
+T. Muller;Delantero;8;4;4;Bayern de Munich
+Coman;Delantero;8;5;0;Bayern de Munich
+Lloris;Portero;13;0;0;Totenham
+D. Sanchez;Defensa;13;1;1;Totenham
+Aurier;Defensa;13;3;2;Totenham
+Alderweireld;Defensa;12;0;0;Totenham
+Vertonghen;Defensa;10;0;0;Totenham
+Ndombele;Centrocampista;13;0;1;Totenham
+Lo Celso;Centrocampista;13;4;0;Totenham
+Alli;Centrocampista;12;1;4;Totenham
+Kane;Delantero;13;8;3;Totenham
+Son;Delantero;13;9;4;Totenham
+Lucas M.;Delantero;13;5;0;Totenham
+Jose Sa;Portero;6;0;0;Olympiacos
+Elabdellaoui;Defensa;6;0;0;Olympiacos
+Tsimikas;Defensa;6;1;1;Olympiacos
+Ba;Defensa;6;0;0;Olympiacos
+Cisse;Defensa;6;1;1;Olympiacos
+Camara;Centrocampista;6;3;1;Olympiacos
+Bouchalakis;Centrocampista;6;0;0;Olympiacos
+Guilherme;Centrocampista;6;2;2;Olympiacos
+Valbuena;Delantero;6;3;3;Olympiacos
+El-Arabi;Delantero;6;4;2;Olympiacos
+Hassan;Delantero;6;1;0;Olympiacos
+Borjan;Portero;6;0;0;Estrella Roja
+Gajic;Defensa;6;0;0;Estrella Roja
+Babic;Defensa;6;1;1;Estrella Roja
+Gobeljic;Defensa;6;0;0;Estrella Roja
+Jander;Defensa;4;1;1;Estrella Roja
+Marko Marin ;Centrocampista;5;1;1;Estrella Roja
+Petrovic;Centrocampista;5;0;0;Estrella Roja
+Nikolic;Centrocampista;6;2;1;Estrella Roja
+Garcia;Delantero;5;0;0;Estrella Roja
+El Fardou Ben;Delantero;5;1;1;Estrella Roja
+Vukanovic;Delantero;6;1;0;Estrella Roja
