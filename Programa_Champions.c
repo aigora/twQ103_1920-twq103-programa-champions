@@ -98,6 +98,171 @@ int main(){
 			eliminatorias(); //Abre la funcion indicada
 			
 		break; //Sale del case 1
+			
+		case 2: //Empieza a ejecutarse el case 2
+			system("cls"); //Borra todo lo anterior en el compilador
+			//Explicacion opcion 2
+			printf("Has elegido la opcion numero 2, asi que vamos a buscar a tu jugador favorito y te mostraremos sus estadisticas.\nTan solo tendras que elegir grupo, club y elegir a tu jugador!!");
+			printf("\n\nPrimero te vamos a mostrar los 8 grupos correspondientes:\n\n");
+			
+			pf2 = fopen("2. Grupos.txt", "r"); //Abre el fichero indicado
+			
+			if(pf2 == NULL){ //Salta un error en caso de no encontar el fichero seleccionado
+				printf("No se ha encontrado el fichero");
+				return 0;
+			}
+			//Con este bucle guardamos lo que pone en el fichero
+				while((clubs = fgetc(pf2)) != EOF){
+					printf("%c", clubs); //Imprime por pantalla lo que pone en el fichero hasta que llega a EOF
+			}
+			
+			fclose(pf2); //Cierra el fichero
+			
+			fflush(stdin); //Limpia el buffer
+			printf("\n\nAhora tienes que elegir uno de los grupos mostrados. Escribe solo la letra: "); scanf("%c", &opcion); //Pide una opcion y la guarda en una variable
+			
+			switch(opcion){
+				case 'A': //Empieza a ejecutarse el case 'A'
+					system("cls"); //Borra todo lo anterior en el compilador
+					pA = fopen("Grupo A.txt", "r"); //Abre el fichero seleccionado
+					while(fgets(vector[i].nombre, 500, pA) != NULL){ //Guarda lo que pone en el fichero en la variable seleccionada
+						cont++;
+						i++;
+					}
+					printf("Has elegido el Grupo A, estos son los equipos que componen el Grupo:\n\n");
+					for(i=0; i<cont; i++){ //Muestra los equipos del Grupo A
+						printf("%d. %s", i+1, vector[i].nombre);
+					}
+					fclose(pA); //Cierra el fichero
+					
+					eleccionjugadorA(); //Abre la funcion indicada
+
+				break; //Sale del case 'A'
+				
+				case 'B':  //Empieza a ejecutarse el case 'B'
+					system("cls"); //Borra todo lo anterior en el compilador
+					pB = fopen("Grupo B.txt", "r"); //Abre el fichero seleccionado
+					while(fgets(vector[i].nombre, 500, pB) != NULL){//Guarda lo que pone en el fichero en la variable seleccionada
+						cont++;
+						i++;
+					}
+					printf("Has elegido el Grupo B, estos son los equipos que componen el Grupo:\n\n");
+					for(i=0; i<cont; i++){ //Muestra los equipos del Grupo B
+						printf("%d. %s", i+1, vector[i].nombre);
+					}
+					fclose(pB);//Cierra el fichero
+					
+					eleccionjugadorB(); //Abre la funcion indicada
+					
+				break; //Sale del case 'B'
+				
+				case 'C': //Empieza a ejecutarse el case 'C'
+					system("cls");//Borra todo lo anterior en el compilador
+					pC = fopen("Grupo C.txt", "r");//Abre el fichero seleccionado
+					while(fgets(vector[i].nombre, 500, pC) != NULL){//Guarda lo que pone en el fichero en la variable seleccionada
+						cont++;
+						i++;
+					}
+					printf("Has elegido el Grupo C, estos son los equipos que componen el Grupo:\n\n");
+					for(i=0; i<cont; i++){ //Muestra los equipos del Grupo C
+						printf("%d. %s", i+1, vector[i].nombre);
+					}
+					fclose(pC);//Cierra el fichero
+					
+					eleccionjugadorC(); //Abre la funcion indicada
+					
+				break; //Sale del case 'C'
+				
+				case 'D':  //Empieza a ejecutarse el case 'D'
+					system("cls");//Borra todo lo anterior en el compilador
+					pD = fopen("Grupo D.txt", "r");//Abre el fichero seleccionado
+					while(fgets(vector[i].nombre, 500, pD) != NULL){//Guarda lo que pone en el fichero en la variable seleccionada
+						cont++;
+						i++;
+					}
+					printf("Has elegido el Grupo D, estos son los equipos que componen el Grupo:\n\n");
+					for(i=0; i<cont; i++){ //Muestra los equipos del Grupo D
+						printf("%d. %s", i+1, vector[i].nombre);
+					}
+					fclose(pD);//Cierra el fichero
+					
+					eleccionjugadorD(); //Abre la funcion indicada
+					
+				break; //Sale del case 'D'
+				
+				case 'E':  //Empieza a ejecutarse el case 'E'
+					system("cls");//Borra todo lo anterior en el compilador
+					pE = fopen("Grupo E.txt", "r");//Abre el fichero seleccionado
+					while(fgets(vector[i].nombre, 500, pE) != NULL){//Guarda lo que pone en el fichero en la variable seleccionada
+						cont++;
+						i++;
+					}
+					printf("Has elegido el Grupo E, estos son los equipos que componen el Grupo:\n\n");
+					for(i=0; i<cont; i++){ //Muestra los equipos del Grupo E
+						printf("%d. %s", i+1, vector[i].nombre);
+					}
+					fclose(pE);//Cierra el fichero
+					
+					eleccionjugadorE(); //Abre la funcion indicada
+					
+				break; //Sale del case 'E'
+				
+				case 'F':  //Empieza a ejecutarse el case 'F'
+					system("cls");//Borra todo lo anterior en el compilador
+					pF = fopen("Grupo F.txt", "r");//Abre el fichero seleccionado
+					while(fgets(vector[i].nombre, 500, pF) != NULL){//Guarda lo que pone en el fichero en la variable seleccionada
+						cont++;
+						i++;
+					}
+					printf("Has elegido el Grupo F, estos son los equipos que componen el Grupo:\n\n");
+					for(i=0; i<cont; i++){ //Muestra los equipos del Grupo F
+						printf("%d. %s", i+1, vector[i].nombre);
+					}
+					fclose(pF);//Cierra el fichero
+					
+					eleccionjugadorF(); //Abre la funcion indicada
+					
+				break; //Sale del case 'F'
+				
+				case 'G':  //Empieza a ejecutarse el case 'G'
+					system("cls");//Borra todo lo anterior en el compilador
+					pG = fopen("Grupo G.txt", "r");//Abre el fichero seleccionado
+					while(fgets(vector[i].nombre, 500, pG) != NULL){//Guarda lo que pone en el fichero en la variable seleccionada
+						cont++;
+						i++;
+					}
+					printf("Has elegido el Grupo G, estos son los equipos que componen el Grupo:\n\n");
+					for(i=0; i<cont; i++){ //Muestra los equipos del Grupo G
+						printf("%d. %s", i+1, vector[i].nombre);
+					}
+					fclose(pG);//Cierra el fichero
+					
+					eleccionjugadorG(); //Abre la funcion indicada
+					
+				break; //Sale del case 'G'
+				
+				case 'H':  //Empieza a ejecutarse el case 'H'
+					system("cls");//Borra todo lo anterior en el compilador
+					pH = fopen("Grupo H.txt", "r");//Abre el fichero seleccionado
+					while(fgets(vector[i].nombre, 500, pH) != NULL){//Guarda lo que pone en el fichero en la variable seleccionada
+						cont++;
+						i++;
+					}
+					printf("Has elegido el Grupo H, estos son los equipos que componen el Grupo:\n\n");
+					for(i=0; i<cont; i++){ //Muestra los equipos del Grupo H
+						printf("%d. %s", i+1, vector[i].nombre);
+					}
+					fclose(pH);//Cierra el fichero
+					
+					eleccionjugadorH(); //Abre la funcion indicada
+					
+				break; //Sale del case 'H'
+					
+				default://Ejecuta esta opcion en caso de no elegir ningun "case" correctamente
+					printf("No has introducido un grupo valido");
+			}
+		
+		break; //Sale del case 2
 	}
 }
 
@@ -209,5 +374,334 @@ void eliminatorias(){
 	
 	fclose(pf1); //Cierra el fichero
 
+}
+
+void eleccionjugadorA(){
+	
+	//Declaracion de las distintas variables
+	FILE *pf2;
+	int i, j, equipo, cont=0, opcion;
+	
+	jugador stats[100]; //Declaracion del vector de estructuras
+
+	pf2 = fopen("sGrupoA.txt", "r"); //Abre el fichero eleccionado
+	
+	if(pf2 == NULL){ //Si no encuentra el fichero salta un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	//Guarda en las distintas variables lo que pone en el fichero
+	while(fscanf(pf2, "%[^;]; %[^;]; %d; %d; %d; %[^\n] \n", stats[i].nombre, stats[i].posicion, &stats[i].partidos, &stats[i].goles, &stats[i].asistencias, stats[i].equipo) != EOF){
+		i++;
+	}
+
+	do{ //Pregunta por uno de los equipos reiteradamente hasta dar una opcion valida 
+    	printf("\n\nElige uno de los equipos para ver sus jugadores: ");
+    	scanf("%d", &equipo);
+	} while (equipo<1 || equipo>4);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estos son los jugadores del equipo elegido:\n");
+	for(i=equipo*11-11; i<equipo*11; i++){ //Bucle que imprime por pantalla los jugadores el equipo elegido
+		printf("\n%d. %s", cont+=1, stats[i].nombre);
+	}
+	
+	do { //Pregunta por uno de los jugadores reiteradamente hasta dar una opcion valida 
+		printf("\n\nElige a un jugador para ver sus estadisticas: ");
+		scanf("%d", &opcion);
+	} while (opcion>11 || opcion<1);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estas son las estadisticas del jugador elegido:\n");
+	j = equipo*11-12+opcion; //Significado variable j
+	//Imprime estadisticas del jugador seleccionado
+	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+}
+
+void eleccionjugadorB(){
+	//Declaracion de las distintas variables
+	FILE *pf2;
+	int i, j, equipo, cont=0, opcion;
+	
+	jugador stats[100]; //Declaracion del vector de estructuras
+
+	pf2 = fopen("sGrupoB.txt", "r"); //Abre el fichero eleccionado
+	
+	if(pf2 == NULL){ //Si no encuentra el fichero salta un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	//Guarda en las distintas variables lo que pone en el fichero
+	while(fscanf(pf2, "%[^;]; %[^;]; %d; %d; %d; %[^\n] \n", stats[i].nombre, stats[i].posicion, &stats[i].partidos, &stats[i].goles, &stats[i].asistencias, stats[i].equipo) != EOF){
+		i++;
+	}
+
+	do{ //Pregunta por uno de los equipos reiteradamente hasta dar una opcion valida 
+    	printf("\n\nElige uno de los equipos para ver sus jugadores: ");
+    	scanf("%d", &equipo);
+	} while (equipo<1 || equipo>4);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estos son los jugadores del equipo elegido:\n");
+	for(i=equipo*11-11; i<equipo*11; i++){ //Bucle que imprime por pantalla los jugadores el equipo elegido
+		printf("\n%d. %s", cont+=1, stats[i].nombre);
+	}
+	
+	do { //Pregunta por uno de los jugadores reiteradamente hasta dar una opcion valida 
+		printf("\n\nElige a un jugador para ver sus estadisticas: ");
+		scanf("%d", &opcion);
+	} while (opcion>11 || opcion<1);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estas son las estadisticas del jugador elegido:\n");
+	j = equipo*11-12+opcion; //Significado variable j
+	//Imprime estadisticas del jugador seleccionado
+	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+}
+
+void eleccionjugadorC(){
+	//Declaracion de las distintas variables
+	FILE *pf2;
+	int i, j, equipo, cont=0, opcion;
+	
+	jugador stats[100]; //Declaracion del vector de estructuras
+
+	pf2 = fopen("sGrupoC.txt", "r"); //Abre el fichero eleccionado
+	
+	if(pf2 == NULL){ //Si no encuentra el fichero salta un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	//Guarda en las distintas variables lo que pone en el fichero
+	while(fscanf(pf2, "%[^;]; %[^;]; %d; %d; %d; %[^\n] \n", stats[i].nombre, stats[i].posicion, &stats[i].partidos, &stats[i].goles, &stats[i].asistencias, stats[i].equipo) != EOF){
+		i++;
+	}
+
+	do{ //Pregunta por uno de los equipos reiteradamente hasta dar una opcion valida 
+    	printf("\n\nElige uno de los equipos para ver sus jugadores: ");
+    	scanf("%d", &equipo);
+	} while (equipo<1 || equipo>4);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estos son los jugadores del equipo elegido:\n");
+	for(i=equipo*11-11; i<equipo*11; i++){ //Bucle que imprime por pantalla los jugadores el equipo elegido
+		printf("\n%d. %s", cont+=1, stats[i].nombre);
+	}
+	
+	do { //Pregunta por uno de los jugadores reiteradamente hasta dar una opcion valida 
+		printf("\n\nElige a un jugador para ver sus estadisticas: ");
+		scanf("%d", &opcion);
+	} while (opcion>11 || opcion<1);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estas son las estadisticas del jugador elegido:\n");
+	j = equipo*11-12+opcion; //Significado variable j
+	//Imprime estadisticas del jugador seleccionado
+	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+}
+
+void eleccionjugadorD(){
+	//Declaracion de las distintas variables
+	FILE *pf2;
+	int i, j, equipo, cont=0, opcion;
+	
+	jugador stats[100]; //Declaracion del vector de estructuras
+
+	pf2 = fopen("sGrupoD.txt", "r"); //Abre el fichero eleccionado
+	
+	if(pf2 == NULL){ //Si no encuentra el fichero salta un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	//Guarda en las distintas variables lo que pone en el fichero
+	while(fscanf(pf2, "%[^;]; %[^;]; %d; %d; %d; %[^\n] \n", stats[i].nombre, stats[i].posicion, &stats[i].partidos, &stats[i].goles, &stats[i].asistencias, stats[i].equipo) != EOF){
+		i++;
+	}
+
+	do{ //Pregunta por uno de los equipos reiteradamente hasta dar una opcion valida 
+    	printf("\n\nElige uno de los equipos para ver sus jugadores: ");
+    	scanf("%d", &equipo);
+	} while (equipo<1 || equipo>4);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estos son los jugadores del equipo elegido:\n");
+	for(i=equipo*11-11; i<equipo*11; i++){ //Bucle que imprime por pantalla los jugadores el equipo elegido
+		printf("\n%d. %s", cont+=1, stats[i].nombre);
+	}
+	
+	do { //Pregunta por uno de los jugadores reiteradamente hasta dar una opcion valida 
+		printf("\n\nElige a un jugador para ver sus estadisticas: ");
+		scanf("%d", &opcion);
+	} while (opcion>11 || opcion<1);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estas son las estadisticas del jugador elegido:\n");
+	j = equipo*11-12+opcion; //Significado variable j
+	//Imprime estadisticas del jugador seleccionado
+	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+}
+
+void eleccionjugadorE(){
+	//Declaracion de las distintas variables
+	FILE *pf2;
+	int i, j, equipo, cont=0, opcion;
+	
+	jugador stats[100]; //Declaracion del vector de estructuras
+
+	pf2 = fopen("sGrupoE.txt", "r"); //Abre el fichero eleccionado
+	
+	if(pf2 == NULL){ //Si no encuentra el fichero salta un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	//Guarda en las distintas variables lo que pone en el fichero
+	while(fscanf(pf2, "%[^;]; %[^;]; %d; %d; %d; %[^\n] \n", stats[i].nombre, stats[i].posicion, &stats[i].partidos, &stats[i].goles, &stats[i].asistencias, stats[i].equipo) != EOF){
+		i++;
+	}
+
+	do{ //Pregunta por uno de los equipos reiteradamente hasta dar una opcion valida 
+    	printf("\n\nElige uno de los equipos para ver sus jugadores: ");
+    	scanf("%d", &equipo);
+	} while (equipo<1 || equipo>4);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estos son los jugadores del equipo elegido:\n");
+	for(i=equipo*11-11; i<equipo*11; i++){ //Bucle que imprime por pantalla los jugadores el equipo elegido
+		printf("\n%d. %s", cont+=1, stats[i].nombre);
+	}
+	
+	do { //Pregunta por uno de los jugadores reiteradamente hasta dar una opcion valida 
+		printf("\n\nElige a un jugador para ver sus estadisticas: ");
+		scanf("%d", &opcion);
+	} while (opcion>11 || opcion<1);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estas son las estadisticas del jugador elegido:\n");
+	j = equipo*11-12+opcion; //Significado variable j
+	//Imprime estadisticas del jugador seleccionado
+	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+}
+
+void eleccionjugadorF(){
+	//Declaracion de las distintas variables
+	FILE *pf2;
+	int i, j, equipo, cont=0, opcion;
+	
+	jugador stats[100]; //Declaracion del vector de estructuras
+
+	pf2 = fopen("sGrupoF.txt", "r"); //Abre el fichero eleccionado
+	
+	if(pf2 == NULL){ //Si no encuentra el fichero salta un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	//Guarda en las distintas variables lo que pone en el fichero
+	while(fscanf(pf2, "%[^;]; %[^;]; %d; %d; %d; %[^\n] \n", stats[i].nombre, stats[i].posicion, &stats[i].partidos, &stats[i].goles, &stats[i].asistencias, stats[i].equipo) != EOF){
+		i++;
+	}
+
+	do{ //Pregunta por uno de los equipos reiteradamente hasta dar una opcion valida 
+    	printf("\n\nElige uno de los equipos para ver sus jugadores: ");
+    	scanf("%d", &equipo);
+	} while (equipo<1 || equipo>4);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estos son los jugadores del equipo elegido:\n");
+	for(i=equipo*11-11; i<equipo*11; i++){ //Bucle que imprime por pantalla los jugadores el equipo elegido
+		printf("\n%d. %s", cont+=1, stats[i].nombre);
+	}
+	
+	do { //Pregunta por uno de los jugadores reiteradamente hasta dar una opcion valida 
+		printf("\n\nElige a un jugador para ver sus estadisticas: ");
+		scanf("%d", &opcion);
+	} while (opcion>11 || opcion<1);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estas son las estadisticas del jugador elegido:\n");
+	j = equipo*11-12+opcion; //Significado variable j
+	//Imprime estadisticas del jugador seleccionado
+	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+}
+
+void eleccionjugadorG(){
+	//Declaracion de las distintas variables
+	FILE *pf2;
+	int i, j, equipo, cont=0, opcion;
+	
+	jugador stats[100]; //Declaracion del vector de estructuras
+
+	pf2 = fopen("sGrupoG.txt", "r"); //Abre el fichero eleccionado
+	
+	if(pf2 == NULL){ //Si no encuentra el fichero salta un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	//Guarda en las distintas variables lo que pone en el fichero
+	while(fscanf(pf2, "%[^;]; %[^;]; %d; %d; %d; %[^\n] \n", stats[i].nombre, stats[i].posicion, &stats[i].partidos, &stats[i].goles, &stats[i].asistencias, stats[i].equipo) != EOF){
+		i++;
+	}
+
+	do{ //Pregunta por uno de los equipos reiteradamente hasta dar una opcion valida 
+    	printf("\n\nElige uno de los equipos para ver sus jugadores: ");
+    	scanf("%d", &equipo);
+	} while (equipo<1 || equipo>4);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estos son los jugadores del equipo elegido:\n");
+	for(i=equipo*11-11; i<equipo*11; i++){ //Bucle que imprime por pantalla los jugadores el equipo elegido
+		printf("\n%d. %s", cont+=1, stats[i].nombre);
+	}
+	
+	do { //Pregunta por uno de los jugadores reiteradamente hasta dar una opcion valida 
+		printf("\n\nElige a un jugador para ver sus estadisticas: ");
+		scanf("%d", &opcion);
+	} while (opcion>11 || opcion<1);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estas son las estadisticas del jugador elegido:\n");
+	j = equipo*11-12+opcion; //Significado variable j
+	//Imprime estadisticas del jugador seleccionado
+	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+}
+
+void eleccionjugadorH(){
+	//Declaracion de las distintas variables
+	FILE *pf2;
+	int i, j, equipo, cont=0, opcion;
+	
+	jugador stats[100]; //Declaracion del vector de estructuras
+
+	pf2 = fopen("sGrupoH.txt", "r"); //Abre el fichero eleccionado
+	
+	if(pf2 == NULL){ //Si no encuentra el fichero salta un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	//Guarda en las distintas variables lo que pone en el fichero
+	while(fscanf(pf2, "%[^;]; %[^;]; %d; %d; %d; %[^\n] \n", stats[i].nombre, stats[i].posicion, &stats[i].partidos, &stats[i].goles, &stats[i].asistencias, stats[i].equipo) != EOF){
+		i++;
+	}
+
+	do{ //Pregunta por uno de los equipos reiteradamente hasta dar una opcion valida 
+    	printf("\n\nElige uno de los equipos para ver sus jugadores: ");
+    	scanf("%d", &equipo);
+	} while (equipo<1 || equipo>4);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estos son los jugadores del equipo elegido:\n");
+	for(i=equipo*11-11; i<equipo*11; i++){ //Bucle que imprime por pantalla los jugadores el equipo elegido
+		printf("\n%d. %s", cont+=1, stats[i].nombre);
+	}
+	
+	do { //Pregunta por uno de los jugadores reiteradamente hasta dar una opcion valida 
+		printf("\n\nElige a un jugador para ver sus estadisticas: ");
+		scanf("%d", &opcion);
+	} while (opcion>11 || opcion<1);
+	
+	system("cls"); //Borra todo lo anterior
+	printf("Estas son las estadisticas del jugador elegido:\n");
+	j = equipo*11-12+opcion; //Significado variable j
+	//Imprime estadisticas del jugador seleccionado
+	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
 }
 
