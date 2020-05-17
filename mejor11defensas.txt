@@ -1,0 +1,32 @@
+Thiago Silva;Paris Saint Germain
+Marquinhos;Paris Saint Germain
+Meunier;Paris Saint Germain
+Bernat;Paris Saint Germain
+Varane;Real Madrid
+S. Ramos;Real Madrid
+Carvajal;Real Madrid
+F.Mendy;Real Madrid
+Kimmich;Bayern de Munich
+Pavard;Bayern de Munich
+Alaba;Bayern de Munich
+Boateng;Bayern de Munich
+D.Sanchez;Tottenham
+Aurier;Tottenham
+Alder;Tottenham
+Vertonghen;Tottenham
+Otamendi;Manchester City
+Mendy;Manchester City
+Walker;Manchester City
+Laporte;Manchester City
+Alex Sandro;Juventus
+Bonucci;Juventus
+Danilo;Juventus
+de Ligt;Juventus
+Arnold;Liverpool
+van Dijk;Liverpool
+Robertson;Liverpool
+Joe Gomez;Liverpool
+Semedo;Barcelona
+Pique;Barcelona
+Lenglet;Barcelona
+Alba;Barcelona

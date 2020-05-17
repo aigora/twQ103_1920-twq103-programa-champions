@@ -1,0 +1,8 @@
+Keylor Navas;Paris Saint Germain
+Courtois;Real Madrid
+Neuer;Bayern de Munich
+Lloris;Tottenham
+Ederson;Manchester City
+Szczesny;Juventus
+Alisson;Liverpool
+ter Stegen;Barcelona

@@ -1,0 +1,24 @@
+Mbappe;Paris Saint Germain
+Neymar;Paris Saint Germain
+Icardi;Paris Saint Germain
+Benzema;Real Madrid
+Vinicius Jr;Real Madrid
+Hazard;Real Madrid
+Lewandowski;Bayern de Munich
+T.Muller;Bayern de Munich
+Coman;Bayern de Munich
+Kane;Tottenham
+Sonaldo;Tottenham
+Lucas M.;Tottenham
+B.Silva;Manchester City
+G.Jesus;Manchester City
+Mahrez;Manchester City
+Dybala;Juventus
+Cristiano;Juventus
+Higuain;Juventus
+Salah;Liverpool
+S.Mane;Liverpool
+Firmino;Liverpool
+Messi;Barcelona
+Suarez;Barcelona
+Griezmann;Barcelona

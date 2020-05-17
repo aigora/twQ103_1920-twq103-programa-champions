@@ -1,0 +1,24 @@
+Verratti;Paris Saint Germain
+Di Maria;Paris Saint Germain
+Gueye;Paris Saint Germain
+Kroos;Real Madrid
+Casemiro;Real Madrid
+F.Valverde;Real Madrid
+Gnabry;Bayern de Munich
+Thiago ;Bayern de Munich
+Coutinho;Bayern de Munich
+Ndombele;Tottenham
+Lo Celso;Tottenham
+Alli;Tottenham
+De Bruyne;Manchester City
+Gundogan;Manchester City
+Rodri;Manchester City
+Pjanic;Juventus
+Bentancur;Juventus
+Matuidi;Juventus
+Oxlade;Liverpool
+Fabinho;Liverpool
+Wijnaldum;Liverpool
+De Jong;Barcelona
+Busquets;Barcelona
+Arthur;Barcelona
