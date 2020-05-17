@@ -263,6 +263,44 @@ int main(){
 			}
 		
 		break; //Sale del case 2
+			
+		case 3: //Empieza a ejecutarse el case 3
+			system("cls");//Borra todo lo anterior en el compilador
+			printf("Has elegido hacer el mejor 11 de la Champions.\n\n"); //Explicacion opcion 3
+			printf("Para llevar a cabo esta tarea se mostraran todos los jugadores de los 8 mejores equipos. Estos 8 equipos ya estan \nseleccionados.\n");
+			printf("Podras ver todos los porteros correspondientes a los 8 equipos, de los que tendras que elegir a 1 de ellos; luego \nse te mostraran los 32 defensas disponibles, donde tendras que elegir 4; despues podras ver los 24 centrocampistas \ndisponibles y tienes que elegir a 3 de ellos; por ultimo tendras que elegir 3 delanteros de los 24 mostrados.\n\n");
+			
+			printf("\nPrimero te vamos a mostrar los 8 mejores equipos:\n\n");
+			
+			pf3 = fopen("3. Mejores equipos.txt", "r"); //Abre el fichero indicado
+			
+			if(pf3 == NULL){ //Salta un error en caso de no encontrar el fichero
+				printf("No se ha encontrado el fichero");
+				return 0;
+			}
+			//ALmacena en una variable lo que pone en el fichero
+			while((clubs2 = fgetc(pf3)) != EOF){
+				printf("%c", clubs2); //Imprime por pantalla lo que pone en el fichero hasta que llega a EOF
+			}
+			
+			fclose(pf3); //Cierra el fichero indicado
+			
+			printf("\n");
+			system("pause"); //Pide que se pulse una tecla para continuar con el programa
+			system("cls");//Borra todo lo anterior en el compilador
+			
+			mejor11portero(); //Abre la funcion indicada
+			mejor11defensas(); //Abre la funcion indicada
+			mejor11centrocampistas(); //Abre la funcion indicada
+			mejor11delanteros(); //Abre la funcion indicada
+			
+		break; //Sale del case 3
+		
+		case 4: //Empieza a ejecutarse el case 4
+			printf("Has elegido la opcion Salir del programa. Hasta pronto!!");
+		
+	return 0;
+			
 	}
 }
 
@@ -703,5 +741,204 @@ void eleccionjugadorH(){
 	j = equipo*11-12+opcion; //Significado variable j
 	//Imprime estadisticas del jugador seleccionado
 	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+}
+
+void mejor11portero(){
+	
+	//Declaracion de las variables a utilizar
+	FILE *pf3, *pf4;
+	int i, cont=0;
+	int opcion;
+	mejor11 jugadores[100]; //Declaracion del vector de estructuras
+	
+	printf("\nBien! Ahora te vamos a mostrar los 8 mejores porteros:\n\n");
+	
+	pf3 = fopen("mejor11portero.txt", "r"); //Abre el fichero indicado
+
+	if(pf3 == NULL){ //Si no encuentra el fichero avisa con un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	// Almacena lo que pone en el fichero en las variables indicadas
+	while(fscanf(pf3, "%[^;]; %[^\n]\n", jugadores[i].nombre, jugadores[i].equipo) != EOF){
+		cont++;
+		i++;
+	}
+	for(i=0; i<cont; i++){ //Con este bucle se muestra por pantalla lo que pone en el fichero
+		printf("%d.Nombre: %s \t\t%d.Club: %s\n", i+1, jugadores[i].nombre, i+1, jugadores[i].equipo);
+	}
+	
+	fclose(pf3); //Cierra el fichero correspondiente
+	
+	do{ //Pide reiteradamente una opcion hasta que se da una valida
+    	printf("\n\nElige una opcion para guardarla como mejor portero: ");
+    	scanf("%d", &opcion); //Guarda dicha opcion
+	} while (opcion<1 || opcion>8);
+	
+	system("cls"); //Limpia el compilador
+	
+	pf4 = fopen("mejor11final.txt", "w"); //Crea el fichero correspondiente
+	
+	if(pf4 == NULL){ //Avisa de un error si no se ha podido crear el fichero
+		printf("No se ha podido crear el fichero");
+	}
+	
+	// Escribe en el fichero el nombre del portero elegido
+	fprintf(pf4, "Portero: %s \t\t\t\t Club: %s\n", jugadores[opcion-1].nombre, jugadores[opcion-1].equipo);
+	fclose(pf4); //Cierra el fichero
+}
+
+void mejor11defensas(){
+	//Declaracion de las variables a utilizar
+	FILE *pf3, *pf4;
+	int i, cont=0;
+	int opcion1, opcion2, opcion3, opcion4;
+	mejor11 jugadores[100]; //Declaracion del vector de estructuras
+	
+	printf("\nBien! Ahora te vamos a mostrar los 32 mejores defensas:\n\n");
+	
+	pf3 = fopen("mejor11defensas.txt", "r"); //Abre el fichero indicado
+	
+	if(pf3 == NULL){ //Si no encuentra el fichero avisa con un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	// Almacena lo que pone en el fichero en las variables indicadas
+	while(fscanf(pf3, "%[^;]; %[^\n]\n", jugadores[i].nombre, jugadores[i].equipo) != EOF){
+		cont++;
+		i++;
+	}
+	for(i=0; i<cont; i++){ //Con este bucle se muestra por pantalla lo que pone en el fichero
+		printf("%d.Nombre: %s \t\t%d.Club: %s\n", i+1, jugadores[i].nombre, i+1, jugadores[i].equipo);
+	}
+	fclose(pf3); //Cierra el fichero correspondiente
+	do{ //Pide reiteradamente una opcion hasta que se da una valida
+    	printf("\n\nElige 4 opciones para guardarla como mejores defensas: ");
+    	scanf("%d %d %d %d", &opcion1, &opcion2, &opcion3, &opcion4);
+	} while (opcion1<1 || opcion1>32 || opcion2<1 || opcion2>32 || opcion3<1 || opcion3>32 || opcion4<1 || opcion4>32);
+	
+	system("cls"); //Limpia el compilador
+	
+	pf4 = fopen("mejor11final.txt", "a"); //Abre el fichero correspondiente para añadir informacion
+	
+	if(pf4 == NULL){ //Avisa de un error si no se ha podido crear el fichero
+		printf("No se ha podido crear el fichero");
+	}
+	
+	// Escribe en el fichero el nombre de los cuatro defensas elegidos
+	fprintf(pf4, "Defensa: %s \t\t\t\t Club: %s\n", jugadores[opcion1-1].nombre, jugadores[opcion1-1].equipo);
+	fprintf(pf4, "Defensa: %s \t\t\t\t Club: %s\n", jugadores[opcion2-1].nombre, jugadores[opcion2-1].equipo);
+	fprintf(pf4, "Defensa: %s \t\t\t\t Club: %s\n", jugadores[opcion3-1].nombre, jugadores[opcion3-1].equipo);
+	fprintf(pf4, "Defensa: %s \t\t\t\t Club: %s\n", jugadores[opcion4-1].nombre, jugadores[opcion4-1].equipo);
+	fclose(pf4); //Cierra el fichero correspondiente
+}
+
+void mejor11centrocampistas(){
+	//Declaracion de las variables a utilizar
+	FILE *pf3, *pf4;
+	int i, cont=0;
+	int opcion1, opcion2, opcion3;
+	mejor11 jugadores[100]; //Declaracion del vector de estructuras
+	
+	printf("\nBien! Ahora te vamos a mostrar los 24 mejores centrocampistas:\n\n");
+	
+	pf3 = fopen("mejor11centrocampistas.txt", "r"); //Abre el fichero indicado
+	
+	if(pf3 == NULL){ //Si no encuentra el fichero avisa con un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	// Almacena lo que pone en el fichero en las variables indicadas
+	while(fscanf(pf3, "%[^;]; %[^\n]\n", jugadores[i].nombre, jugadores[i].equipo) != EOF){
+		cont++;
+		i++;
+	}
+	for(i=0; i<cont; i++){ //Con este bucle se muestra por pantalla lo que pone en el fichero
+		printf("%d.Nombre: %s \t\t%d.Club: %s\n", i+1, jugadores[i].nombre, i+1, jugadores[i].equipo);
+	}
+	fclose(pf3); //Cierra el fichero correspondiente
+	
+	do{ //Pide reiteradamente una opcion hasta que se da una valida
+    	printf("\n\nElige 3 opciones para guardarla como mejores centrocampistas: ");
+    	scanf("%d %d %d", &opcion1, &opcion2, &opcion3);
+	} while (opcion1<1 || opcion1>32 || opcion2<1 || opcion2>32 || opcion3<1 || opcion3>32);
+	
+	system("cls"); //Limpia el compilador
+	
+	pf4 = fopen("mejor11final.txt", "a"); //Abre el fichero correspondiente para añadir informacion
+	
+	if(pf4 == NULL){ //Avisa de un error si no se ha podido crear el fichero
+		printf("No se ha podido crear el fichero");
+	}
+	
+	// Escribe en el fichero el nombre de los tres centrocampistas elegidos
+	fprintf(pf4, "Centrocampista: %s \t\t\t\t Club: %s\n", jugadores[opcion1-1].nombre, jugadores[opcion1-1].equipo);
+	fprintf(pf4, "Centrocampista: %s \t\t\t\t Club: %s\n", jugadores[opcion2-1].nombre, jugadores[opcion2-1].equipo);
+	fprintf(pf4, "Centrocampista: %s \t\t\t\t Club: %s\n", jugadores[opcion3-1].nombre, jugadores[opcion3-1].equipo);
+	fclose(pf4); //Cierra el fichero correspondiente
+}
+
+void mejor11delanteros(){
+	//Declaracion de las variables a utilizar
+	FILE *pf3, *pf4;
+	int i, cont=0;
+	int opcion1, opcion2, opcion3, eleccion;
+	mejor11 jugadores[100]; //Declaracion del vector de estructuras
+	
+	printf("\nBien! Ahora te vamos a mostrar los 24 mejores delanteros:\n\n");
+	
+	pf3 = fopen("mejor11delanteros.txt", "r"); //Abre el fichero indicado
+	
+	if(pf3 == NULL){ //Si no encuentra el fichero avisa con un error
+		printf("No se ha encontrado el fichero");
+	}
+	
+	// Almacena lo que pone en el fichero en las variables indicadas
+	while(fscanf(pf3, "%[^;]; %[^\n]\n", jugadores[i].nombre, jugadores[i].equipo) != EOF){
+		cont++;
+		i++;
+	}
+	for(i=0; i<cont; i++){ //Con este bucle se muestra por pantalla lo que pone en el fichero
+		printf("%d.Nombre: %s \t\t%d.Club: %s\n", i+1, jugadores[i].nombre, i+1, jugadores[i].equipo);
+	}
+	fclose(pf3); //Cierra el fichero correspondiente
+	
+	do{ //Pide reiteradamente una opcion hasta que se da una valida
+    	printf("\n\nElige 3 opciones para guardarla como mejores delanteros: ");
+    	scanf("%d %d %d", &opcion1, &opcion2, &opcion3);
+	} while (opcion1<1 || opcion1>32 || opcion2<1 || opcion2>32 || opcion3<1 || opcion3>32);
+	
+	system("cls"); //Limpia el compilador
+	
+	pf4 = fopen("mejor11final.txt", "a"); //Abre el fichero correspondiente para añadir informacion
+	
+	if(pf4 == NULL){ //Avisa de un error si no se ha podido crear el fichero
+		printf("No se ha podido crear el fichero");
+	}
+	
+	// Escribe en el fichero el nombre de los tres delanteros elegidos
+	fprintf(pf4, "Delantero: %s \t\t\t\t Club: %s\n", jugadores[opcion1-1].nombre, jugadores[opcion1-1].equipo);
+	fprintf(pf4, "Delantero: %s \t\t\t\t Club: %s\n", jugadores[opcion2-1].nombre, jugadores[opcion2-1].equipo);
+	fprintf(pf4, "Delantero: %s \t\t\t\t Club: %s\n", jugadores[opcion3-1].nombre, jugadores[opcion3-1].equipo);
+	fclose(pf4); //Cierra el fichero correspondiente
+	
+	system ("cls"); //Limpia el compilador
+	
+	printf("Te gustaria ver tu eleccion del mejor 11?\n\n1. Si\n2. No\n\n");
+	
+	do { //Pregunta reiteradamente una de las dos opciones hasta dar una valida
+		printf("Elige entre 1 o 2: ");
+		scanf("%d", &eleccion); //Guarda el valor de dicha eleccion
+	} while (eleccion<1 || eleccion>2);
+
+	switch (eleccion){ //Comienza el switch
+		case 1: //Comienza la ejecucion del case 1
+			printf("Visita el fichero 'mejor11final.txt' en la carpeta del programa y podras verlo!");
+		break; //Sale del case 1
+		
+		case 2: //Comienza la ejecucion del case 2
+			printf("Vaya... Tu eleccion del mejor 11 se ha guardado en el fichero 'mejor11final.txt' en la carpeta del programa y estara disponible en cualquier momento!");
+		break; //Sale del case 2
+	}
 }
 
