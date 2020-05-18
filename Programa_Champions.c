@@ -410,6 +410,8 @@ void eliminatorias(){
 	
 	fprintf(pf1, "\nCampeon de la Champions: %s\n", equipo31); //Escribe en el fichero el nombre del equipo asocidado a su variable
 	
+	printf("\n\nBien! Ahora que has acabado podras ver tus resultados en el fichero 'Eliminatorias.txt' en la carpeta del programa!");
+	
 	fclose(pf1); //Cierra el fichero
 
 }
@@ -454,6 +456,8 @@ void eleccionjugadorA(){
 	j = equipo*11-12+opcion; //Significado variable j
 	//Imprime estadisticas del jugador seleccionado
 	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+
+	fclose(pf2); //Cierra el fichero
 }
 
 void eleccionjugadorB(){
@@ -495,6 +499,8 @@ void eleccionjugadorB(){
 	j = equipo*11-12+opcion; //Significado variable j
 	//Imprime estadisticas del jugador seleccionado
 	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+
+	fclose(pf2); //Cierra el fichero
 }
 
 void eleccionjugadorC(){
@@ -536,6 +542,8 @@ void eleccionjugadorC(){
 	j = equipo*11-12+opcion; //Significado variable j
 	//Imprime estadisticas del jugador seleccionado
 	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+
+	fclose(pf2); //Cierra el fichero
 }
 
 void eleccionjugadorD(){
@@ -577,6 +585,8 @@ void eleccionjugadorD(){
 	j = equipo*11-12+opcion; //Significado variable j
 	//Imprime estadisticas del jugador seleccionado
 	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+
+	fclose(pf2); //Cierra el fichero
 }
 
 void eleccionjugadorE(){
@@ -618,6 +628,8 @@ void eleccionjugadorE(){
 	j = equipo*11-12+opcion; //Significado variable j
 	//Imprime estadisticas del jugador seleccionado
 	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+
+	fclose(pf2); //Cierra el fichero
 }
 
 void eleccionjugadorF(){
@@ -659,6 +671,8 @@ void eleccionjugadorF(){
 	j = equipo*11-12+opcion; //Significado variable j
 	//Imprime estadisticas del jugador seleccionado
 	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+
+	fclose(pf2); //Cierra el fichero
 }
 
 void eleccionjugadorG(){
@@ -700,6 +714,8 @@ void eleccionjugadorG(){
 	j = equipo*11-12+opcion; //Significado variable j
 	//Imprime estadisticas del jugador seleccionado
 	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+
+	fclose(pf2); //Cierra el fichero
 }
 
 void eleccionjugadorH(){
@@ -741,6 +757,8 @@ void eleccionjugadorH(){
 	j = equipo*11-12+opcion; //Significado variable j
 	//Imprime estadisticas del jugador seleccionado
 	printf("\nNombre: %s\nPosicion: %s\nPartidos: %d\nGoles: %d\nAsistencias: %d\n", stats[j].nombre, stats[j].posicion, stats[j].partidos, stats[j].goles, stats[j].asistencias);
+
+	fclose(pf2); //Cierra el fichero
 }
 
 void mejor11portero(){
