@@ -297,6 +297,7 @@ int main(){
 		break; //Sale del case 3
 		
 		case 4: //Empieza a ejecutarse el case 4
+			system("cls");
 			printf("Has elegido la opcion Salir del programa. Hasta pronto!!");
 		
 	return 0;
